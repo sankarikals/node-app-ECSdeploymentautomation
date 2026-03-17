@@ -71,5 +71,6 @@ jobs:
        # if: github.event_name == 'pull_request'
 
       - name: Terraform Apply
+        if: github.ref == 'refs/heads/main'
         working-directory: terraform
         run: terraform apply -auto-approve tfplan 
