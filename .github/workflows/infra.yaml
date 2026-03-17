@@ -66,9 +66,9 @@ jobs:
         working-directory: terraform
         run: terraform plan -var-file=vars/test/test.tfvars -out=tfplan
 
-      - name: Manual Approval
-        uses: hmarr/auto-approve-action@v2
-        if: github.event_name == 'pull_request'
+      #- name: Manual Approval
+       # uses: hmarr/auto-approve-action@v2
+       # if: github.event_name == 'pull_request'
 
       - name: Terraform Apply
         working-directory: terraform
