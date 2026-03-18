@@ -1,3 +1,5 @@
+data "aws_caller_identity" "current" {}
+
 # Define an S3 bucket resource
 resource "aws_s3_bucket" "log_bucket" {
   bucket = var.log_bucket_name
