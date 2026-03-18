@@ -172,8 +172,9 @@ module "ecs-cluster" {
 #------------------------------------------------------------------------------
 
 data "aws_acm_certificate" "node_app_cert" {
-  domain   = "*.demoprojectbc1.com"
+  domain   = "*.sankarik.in"
   statuses = ["ISSUED"]
+  most_recent = true
 }
 
 module "ecs-alb" {
