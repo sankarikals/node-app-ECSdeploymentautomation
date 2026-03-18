@@ -49,9 +49,13 @@ docker build -t node-app:latest .
 
 ##### Run the Docker container:
 ```bash
-docker run -p 3000:3000 node-app:latest -n node-app
+docker run --name node-app -p 3000:3000 node-app:latest
 ```
 The application will be available at [http://localhost:3000](http://localhost:3000).
+
+<img width="1251" height="421" alt="image" src="https://github.com/user-attachments/assets/79c8c3c1-2086-40df-bb28-28b420be8f5b" />
+
+
 
 ## Infrastructure Provisioning
 
