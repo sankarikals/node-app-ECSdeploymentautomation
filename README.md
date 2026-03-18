@@ -177,3 +177,8 @@ Click **Run Workflow**
 - When using external terraform modules it becomes really important to consider facts like Modules may enforce rigid configurations.
 - Terraform cannot resolve dependencies inside modules during terraform plan.
 - Debugging an abstracted module is harder than debugging native resources.
+
+- Deployed in ECS
+
+- <img width="862" height="222" alt="image" src="https://github.com/user-attachments/assets/a7af4721-c275-4030-936c-d635c401c28e" />
+
