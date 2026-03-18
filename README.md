@@ -56,6 +56,8 @@ The application will be available at [http://localhost:3000](http://localhost:30
 <img width="1251" height="421" alt="image" src="https://github.com/user-attachments/assets/79c8c3c1-2086-40df-bb28-28b420be8f5b" />
 
 
+<img width="966" height="257" alt="image" src="https://github.com/user-attachments/assets/2cb60142-449d-44d7-8ccf-49860f0f6d7b" />
+
 
 ## Infrastructure Provisioning
 
