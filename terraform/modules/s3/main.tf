@@ -103,7 +103,7 @@ resource "aws_s3_bucket_policy" "log_bucket_policy" {
   })
 }
 
-*/
+/*
 # Define a bucket policy for the S3 bucket
 resource "aws_s3_bucket_policy" "log_bucket_policy" {
   bucket = aws_s3_bucket.log_bucket.id
