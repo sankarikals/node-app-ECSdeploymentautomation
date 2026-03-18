@@ -80,12 +80,12 @@ terraform init
 
 #### Review the Terraform Plan:
 ```bash
-terraform plan
+terraform plan -var-file="./vars/test/test.tfvars"
 ```
 
 #### Apply the Terraform Configuration:
 ```bash
-terraform apply
+terraform apply -var-file="./vars/test/test.tfvars"
 ```
 This will provision the following resources:
 - ECS Cluster
