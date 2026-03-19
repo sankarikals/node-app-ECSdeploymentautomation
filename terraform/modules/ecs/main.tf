@@ -48,6 +48,7 @@ resource "aws_ecr_repository" "main" {
 resource "aws_ecr_repository_policy" "ecr_policies" {
   repository = var.ecr_repository_name
   policy     = data.aws_iam_policy_document.ecr_cross_account_access.json
+  depends_on = [aws_ecr_repository.main]
 }
 
 data "aws_iam_policy_document" "ecr_cross_account_access" {
